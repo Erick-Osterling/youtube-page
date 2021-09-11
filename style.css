@@ -6,23 +6,28 @@ body {
 header {
     display: flex;
     border: solid 2px blue;
-    height: 50px;
+    height: 60px;
     justify-content:space-between;
 }
 .header-left {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    border: solid 1px darkgreen;
+    width: 290px;;
 }
 .header-center {
     display: flex;
     flex-direction: row;
-
+    border: solid 1px magenta;
+    align-items: center;
 }
 .header-right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    border: solid 1px green;
+    align-items: center;
 }
 
 .menu-icon {
@@ -34,7 +39,7 @@ header {
     margin-right: 20px;   
 }
 .youtube-icon {
-    width: 130px;
+    width: 100px;
     height: auto;
     align-self: center;
     
@@ -62,6 +67,12 @@ justify-content: space-around;
     margin: 20px;
 }
 
+.top-right-icon {
+    margin-right: 30px;
+    height: 30px;
+}
+
+
 .below-header {
     border: solid 2px green;
     display: flex;
@@ -72,8 +83,10 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     border: solid 2px orange;
-    width: 70%;
+    width: 60%;
     justify-content: top;
+    margin-left: 170px;
+    margin-top: 30px;
 }
 
 .right-side {
@@ -82,4 +95,7 @@ justify-content: space-around;
     border: solid 2px red;
     width: 30%;
     justify-content: top;
+}
+.video-info {
+    width: 1126.8px;
 }
