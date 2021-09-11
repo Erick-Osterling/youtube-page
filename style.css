@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    border: solid 2px blue;
+    height: 50px;
+    justify-content:space-between;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.header-center {
+    display: flex;
+    flex-direction: row;
+
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu-icon {
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;   
+}
+.youtube-icon {
+    width: 130px;
+    height: auto;
+    align-self: center;
+    
+}
+
+.searching {
+    width: 500px;
+    height: 30px;
+}
+.search-icon-box {
+height: 34px;
+width: 70px;
+display: flex;
+border: solid 1px gray;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.search-icon {
+    width: 40px;
+}
+
+.mic-icon {
+    width: 35px;
+    margin: 20px;
+}
+
+.below-header {
+    border: solid 2px green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px orange;
+    width: 70%;
+    justify-content: top;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    width: 30%;
+    justify-content: top;
+}
