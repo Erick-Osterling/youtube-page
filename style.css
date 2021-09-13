@@ -99,3 +99,20 @@ justify-content: space-around;
 .video-info {
     width: 1126.8px;
 }
+
+.thum-info {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 14px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 12px;
+    width: 200px;
+    line-height: 18px;
+    white-space: nowrap;
+}
